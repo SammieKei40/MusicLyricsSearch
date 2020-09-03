@@ -70,7 +70,7 @@ button {
     position: absolute;
     top: 2px;
     right: 2px;
-    background-color: blue;
+    background-color: skyblue;
     border: 0;
     border-radius: 50px;
     color: #fff;
@@ -79,11 +79,11 @@ button {
   }
   
   .btn {
-    background-color: #8d56fd;
+    background-color: skyblue;
     border: 0;
     border-radius: 10px;
     color: #fff;
-    padding: 4px 10px;
+    padding: 4px 4px;
   }
   
   ul.songs {
@@ -99,13 +99,13 @@ button {
   }
   
   .container {
-    margin: 30px auto;
+    margin: 60px auto;
     max-width: 100%;
-    width: 500px;
+    width: 800px;
   }
   
   .container h2 {
-    font-weight: 300;
+    font-weight: 300px;
   }
   
   .container p {
@@ -127,6 +127,18 @@ button {
     color: #fff;
     text-align: center;
     font-weight: var(--font-semi);
-    padding: 2rem 0;
+    padding: 3rem 0;
+  }
+  
+  @media screen and (min-width: 600px){
+    footer{
+      min-height: 30vh;      
+    }
+  }
+
+  @media screen and (min-width: 1024px){
+    footer{
+      min-height: 20vh;      
+    }
   }
   
